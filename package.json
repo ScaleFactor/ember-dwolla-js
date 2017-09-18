@@ -7,7 +7,10 @@
     "dwolla"
   ],
   "license": "MIT",
-  "author": "Matthew Carter",
+  "author": {
+    "name": "Matthew Carter",
+    "email": "matthewcarter@scalefactor.com"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
