@@ -2,4 +2,9 @@
 
 {{outlet}}
 
-{{dwolla-iav}}
+{{input value=dwollaTestToken}}
+
+{{#dwolla-iav for='dwolla-container' token=dwollaTestToken}}
+  <h1>Testing here</h1>
+  <div id='dwolla-container'></div>
+{{/dwolla-iav}}
