@@ -5,8 +5,7 @@ export default Ember.Route.extend({
 
   setupController(controller, route) {
     this._super(...arguments);
-    controller.set('dwollaTestToken', 'abc123');
-    
+
     // this.get('dwolla').createFundingSource('fake-token', {}).then((response) => {
     //   console.log("Created bank account");
     //   console.log(response);

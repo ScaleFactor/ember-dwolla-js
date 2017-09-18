@@ -4,7 +4,7 @@
 
 {{input value=dwollaTestToken}}
 
-{{#dwolla-iav for='dwolla-container' token=dwollaTestToken}}
+{{#dwolla-iav for='dwolla-container' token=dwollaTestToken onFailure=(action 'dwollaIAVFailure')}}
   <h1>Testing here</h1>
   <div id='dwolla-container'></div>
 {{/dwolla-iav}}
