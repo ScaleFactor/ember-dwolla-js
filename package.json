@@ -1,17 +1,21 @@
 {
   "name": "ember-dwolla-js",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon for Dwolla.js.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "dwolla"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Matthew Carter",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScaleFactor/ember-dwolla-js.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
